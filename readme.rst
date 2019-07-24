@@ -1,7 +1,7 @@
 Geoscan Forest
 ##############
 
-Plugin allows to search for tree tops and segmentation tree crowns on orthomosaic.
+Plugin allows to search for tree tops and perform  tree crowns  segmentation on orthomosaic.
 The approximate spatial resolution of input orthomosaic should be about 5 centimeters per pixel.
 
 Send any feedback via support@geoscan.aero or using `Geoscan forum`_ .
@@ -63,3 +63,7 @@ Manual dependencies instalation:
 	[python -m install shapely]
 
 
+License:
+++++++++
+
+The plugin is licensed under  GNU GENERAL PUBLIC LICENSE Version 2
