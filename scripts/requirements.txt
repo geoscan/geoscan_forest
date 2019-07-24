@@ -1,0 +1,4 @@
+scikit-image skimage
+scipy scipy
+geojson geojson
+shapely shapely

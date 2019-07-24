@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/forest_agro_plugin" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
