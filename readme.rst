@@ -9,16 +9,15 @@ Send any feedback via support@geoscan.aero or using `Geoscan forum`_ .
     .. _Geoscan forum: https://www.geoscan.aero/forum/viewforum.php?f=85
 
 
-
 .. image:: geoscan_forest.jpg
 
-Instalation:
+Installation:
 ++++++++++++
 
-- Lunch QGIS 3.x with Admin privileges
+- Launch QGIS 3.x with Admin privileges
 - Select **Manage and install plugins..** command from the **Plugins** menu
 - Search for **Geoscan Forest** plugin
-- Install **Geoscan Forest** pluging 
+- Install **Geoscan Forest** plugin
 - Approve dependencies installation 
 
 
@@ -50,7 +49,7 @@ In case you install plugin via QGIS Plugin Installer, all dependencies will be i
 Manual dependencies instalation:
 ++++++++++++++++++++++++++++++++
 
-- Lunch OSGeo4W Shell console with Aministator privileges
+- Launch OSGeo4W Shell console with Admin privileges
 - Make sure that default version of python is 3.x, if not use **py3_env** command
 - Install dependencies:
   
