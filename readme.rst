@@ -1,7 +1,7 @@
 Geoscan Forest
 ##############
 
-Plugin allows to search for tree tops and segmentate tree crowns on orthomosaic.
+Plugin allows to search for tree tops and segmentation tree crowns on orthomosaic.
 The approximate spatial resolution of input orthomosaic should be about 5 centimeters per pixel.
 
 Send any feedback via support@geoscan.aero or using `Geoscan forum`_ .
@@ -9,10 +9,13 @@ Send any feedback via support@geoscan.aero or using `Geoscan forum`_ .
     .. _Geoscan forum: https://www.geoscan.aero/forum/viewforum.php?f=85
 
 
+
+.. image:: geoscan_forest.jpg
+
 Instalation:
 ++++++++++++
 
-- Lunch QGIS 3.x with Admin previleges
+- Lunch QGIS 3.x with Admin privileges
 - Select **Manage and install plugins..** command from the **Plugins** menu
 - Search for **Geoscan Forest** plugin
 - Install **Geoscan Forest** pluging 
@@ -47,7 +50,7 @@ In case you install plugin via QGIS Plugin Installer, all dependencies will be i
 Manual dependencies instalation:
 ++++++++++++++++++++++++++++++++
 
-- Lunch OSGeo4W Shell console with Aministator previleges
+- Lunch OSGeo4W Shell console with Aministator privileges
 - Make sure that default version of python is 3.x, if not use **py3_env** command
 - Install dependencies:
   
