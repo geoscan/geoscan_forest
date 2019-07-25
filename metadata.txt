@@ -16,7 +16,7 @@ email=support@geoscan.aero
 
 about=A toolkit for estimating the valuation parameters of a forest massif using an orthophotomap obtained from unmanned aerial vehicles.
 
-tracker=https://github.com/geoscan/geoscan_forest
+tracker=https://github.com/geoscan/geoscan_forest/issues
 repository=https://github.com/geoscan/geoscan_forest
 # End of mandatory metadata
 
