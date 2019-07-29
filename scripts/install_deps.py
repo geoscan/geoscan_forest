@@ -11,7 +11,7 @@ def check_deps():
         import pip
     except ImportError:
         reply = QMessageBox.question(iface.mainWindow(), 'Module install',
-                                     'Foresr Agro Plugin need to install the missing module ' + 'pip' + '. Continue?',
+                                     'Geoscan Forest plugin need to install the missing module ' + 'pip' + '. Continue?',
                                      QMessageBox.Yes, QMessageBox.No)
         if reply == QMessageBox.Yes:
             exec(
@@ -30,7 +30,7 @@ def check_deps():
                     print("Module {} is not available, installing...".format(dep))
 
                     reply = QMessageBox.question(iface.mainWindow(), 'Module install',
-                                                 'Foresr Agro Plugin need to install the missing module ' + dep + '. Continue?',
+                                                 'Geoscan Forest plugin need to install the missing module ' + dep + '. Continue?',
                                                  QMessageBox.Yes, QMessageBox.No)
                     if reply == QMessageBox.Yes:
                         result = subprocess.run(["python3", '-m', 'pip', 'install', dep])
